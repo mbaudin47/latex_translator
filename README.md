@@ -3,6 +3,8 @@
 ## Introduction
 This Streamlit app translates a LaTeX document from french to english. It can use Groq or OpenAI large language models (LLMs). It takes a latex content on the left pane and prints the translated content on the right pane.
 
+🔗 [Try it here](https://latextranslator.streamlit.app/)  
+
 ## 💡Why is it useful?
 Of course, there is already a set of online tools for translation:
 - https://translate.google.com/
@@ -83,7 +85,7 @@ set HTTPS_PROXY=your-https-proxy-setting
 
 ### Run the app
 ```bash
-streamlit run latex_translator.py
+streamlit run streamlit_app.py
 ```
 
 ![](app_main_view.png)
