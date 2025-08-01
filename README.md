@@ -1,21 +1,21 @@
-# A french to english LaTeX translator
+# An AI-driven french to english LaTeX translator
 
 ## Introduction
 This Streamlit app translates a LaTeX document from french to english. It can use Groq or OpenAI large language models (LLMs). It takes a latex content on the left pane and prints the translated content on the right pane.
 
-## Why is it useful?
+## 💡Why is it useful?
 Of course, there is already a set of online tools for translation:
-https://translate.google.com/
-https://www.deepl.com/
-https://www.systransoft.com/
-https://www.bing.com/translator
-https://www.reverso.net/traduction-texte
-https://papago.naver.com/
-https://translate.yandex.com/
-https://www.online-translator.com/traduction
-https://libretranslate.com/
-https://www.apertium.org/index.fra.html
-https://textsynth.com/translation.html
+- https://translate.google.com/
+- https://www.deepl.com/
+- https://www.systransoft.com/
+- https://www.bing.com/translator
+- https://www.reverso.net/traduction-texte
+- https://papago.naver.com/
+- https://translate.yandex.com/
+- https://www.online-translator.com/traduction
+- https://libretranslate.com/
+- https://www.apertium.org/index.fra.html
+- https://textsynth.com/translation.html
 
 But none of these tools know about LaTeX out of the box. Moreover, these tools are various limitations including the number of translations that can be performed, the length of each document, etc. For example, textsynth.com uses the MADLAD400 7B model but the maximum number of input tokens is limited to 200 for free access.
 
@@ -23,7 +23,19 @@ There are other tools to translate LaTeX documents, including [trsltx](https://g
 
 The goal of the present tool is to provide good results out-of-the-box, without these limitations. Furthermore the source code can be used as a template for other tools if needed.
 
-## Getting Started
+## 🌟Features
+
+- Drag and drop your LaTeX file
+- Select the LLM among llama, deepseek, etc.
+- Set the AI temperature: from determistic 0 to fully random 1.
+- Enable/disable LaTeX mode
+- Select translation tone : Academic, Talk, Concise, etc.
+- Set keywords, abstract and difficult terms
+- Copy the translated LaTeX term
+- Download the translated LaTeX term
+- Print the number of tokens, the finish reason, the elapsed time
+
+## 🖥️ Getting Started
 ### Dependencies
 * Python
 * Streamlit
@@ -81,7 +93,7 @@ streamlit run latex_translator.py
 Contributors names and contact info
 - Michaël Baudin, michael.baudin@gmail.com
 
-## License
+## 📜 License
 This project is licensed under the [[gnu-lgpl-v2.1.md]] License.
 
 ## Files
@@ -89,7 +101,5 @@ This project is licensed under the [[gnu-lgpl-v2.1.md]] License.
 - `test_document.tex` : A short latex content to be translated.
 - `long_latex_content.tex` : A long LaTeX content to be translated.
 
-## Roadmap
-- Provide context : summary, keywords, style, examples
-- Add a "Copy" button for the translated text.
-- 
+## ⛯ Roadmap
+- Remove OpenAI
