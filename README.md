@@ -83,7 +83,7 @@ set HTTPS_PROXY=your-https-proxy-setting
 
 ### Run the app
 ```bash
-streamlit run latex_translator.py
+streamlit run streamlit_app.py
 ```
 
 ![](app_main_view.png)
