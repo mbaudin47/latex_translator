@@ -101,5 +101,5 @@ This project is licensed under the [[gnu-lgpl-v2.1.md]] License.
 - `test_document.tex` : A short latex content to be translated.
 - `long_latex_content.tex` : A long LaTeX content to be translated.
 
-## ⛯ Roadmap
+## 🗺️ Roadmap
 - Remove OpenAI
