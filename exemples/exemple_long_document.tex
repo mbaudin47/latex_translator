@@ -1,0 +1,95 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{lmodern}
+\usepackage{hyperref}
+
+\geometry{margin=2.5cm}
+
+\title{Rôle des mathématiques dans les sciences modernes}
+\author{Auteur : M. Baudin}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Les mathématiques occupent une place centrale dans la compréhension et la modélisation des phénomènes naturels. Ce document explore leur rôle fondamental à travers une introduction générale, trois sections thématiques, et une conclusion. Des équations illustrent certains concepts clés.
+\end{abstract}
+
+\section*{Introduction}
+
+Les sciences contemporaines reposent largement sur les mathématiques pour modéliser, prédire et analyser les phénomènes observés dans le monde réel. De la mécanique classique à la biologie moléculaire, en passant par les sciences sociales ou l'intelligence artificielle, les outils mathématiques sont omniprésents.
+
+Ce document présente une exploration structurée du rôle des mathématiques dans la science : nous aborderons d'abord les concepts fondamentaux, puis la modélisation scientifique, avant d'examiner quelques applications interdisciplinaires. 
+
+\section{Mathématiques fondamentales}
+
+Les mathématiques pures fournissent les bases conceptuelles sur lesquelles reposent toutes les disciplines scientifiques.
+
+\subsection*{Algèbre et analyse}
+
+L'algèbre permet de manipuler des structures abstraites comme les groupes, anneaux et corps. L’analyse, quant à elle, étudie les limites, les dérivées et les intégrales. Par exemple, la définition formelle de la dérivée est donnée par la limite :
+
+\begin{equation}
+f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}
+\end{equation}
+
+Cette expression est au cœur du calcul différentiel et permet d'étudier les variations de fonctions.
+
+\subsection*{Géométrie et logique}
+
+La géométrie, qu’elle soit euclidienne ou différentielle, structure l’espace et les objets qui l’habitent. La logique mathématique garantit la validité des raisonnements. Ensemble, elles assurent la rigueur des démonstrations.
+
+\section{Modélisation scientifique}
+
+La modélisation mathématique consiste à traduire un problème réel en un système d’équations ou d’inégalités.
+
+\subsection*{Exemple : modélisation d’un mouvement}
+
+En physique, la position $x(t)$ d’un objet soumis à une force constante peut être modélisée par :
+
+\begin{equation}
+x(t) = x_0 + v_0 t + \frac{1}{2} a t^2
+\end{equation}
+
+où $x_0$ est la position initiale, $v_0$ la vitesse initiale, et $a$ l’accélération. Cette équation permet de prévoir la trajectoire de l’objet à tout instant.
+
+\subsection*{Équations différentielles}
+
+Les équations différentielles modélisent des dynamiques temporelles complexes. Par exemple, le modèle de population logistique est donné par :
+
+\begin{equation}
+\frac{dP}{dt} = r P \left(1 - \frac{P}{K}\right)
+\end{equation}
+
+où $P(t)$ est la population au temps $t$, $r$ est le taux de croissance, et $K$ la capacité maximale du milieu.
+
+\section{Applications interdisciplinaires}
+
+Les mathématiques sont devenues incontournables dans des domaines aussi divers que la médecine, l’économie ou l’environnement.
+
+\subsection*{Sciences des données et apprentissage automatique}
+
+L’explosion des données numériques a entraîné une forte croissance des méthodes d’apprentissage supervisé et non supervisé. Les modèles sont souvent définis par une fonction de coût à minimiser, comme dans la régression logistique :
+
+\begin{equation}
+\text{Loss}(\theta) = -\sum_{i=1}^n \left[y_i \log(\sigma(x_i^\top \theta)) + (1 - y_i) \log(1 - \sigma(x_i^\top \theta))\right]
+\end{equation}
+
+où $\sigma(z) = \frac{1}{1 + e^{-z}}$ est la fonction sigmoïde.
+
+\subsection*{Écologie et climat}
+
+Les modèles climatiques utilisent des équations aux dérivées partielles pour simuler l’évolution de variables comme la température, la pression ou l’humidité. Ces modèles nécessitent de puissants outils numériques et une grande capacité de calcul.
+
+\section*{Conclusion}
+
+Les mathématiques ne sont pas seulement un outil au service des autres sciences : elles en constituent l’ossature logique et prédictive. Leur enseignement, leur diffusion et leur développement sont essentiels à l’évolution des connaissances. Dans un monde confronté à des défis complexes, leur rôle est plus que jamais crucial.
+
+\end{document}

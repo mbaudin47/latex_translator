@@ -1,0 +1,5 @@
+pdflatex exemple_document
+pdflatex exemple_document
+
+pdflatex exemple_long_document
+pdflatex exemple_long_document
